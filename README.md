@@ -1,8 +1,8 @@
 
+![Image1](https://github.com/user-attachments/assets/5a206ad2-bdb2-432c-a24f-ef63f866e260)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-# Welcome to the project of open source led bar !
+# Welcome to the project of open source pixel bar !
 
 The project goal is to create an Astera like Pixel bar, that is easy to build and customize to your need !
 
@@ -16,12 +16,48 @@ It work around Wemos D1 esp8266 and feature a custom shield and enclosure to plu
 - WS2812B eco led strip 1M, 60 leds IP67
 - Led Aluminium profile (See section below)
 - Custom Shield (See section below)
-- 3D printing box (See section below)
+- 3D print box (See section below)
 
 
+### Led Aluminium profile
+
+The led aluminiun profile should have the following shape and be 1 meter long :
+
+<img src="images/aluminium.avif" alt="Alt Text" style="width:40%; height:auto;">
+
+<br/>
+
+It can be found on Amazon, but if you send me message I may get them for you cheaper as I order in bulk ! 
+
+
+### Custom shield for Wemos D1
+
+
+<img src="images/shield_pcb_3d.png" alt="Alt Text" style="width:30%; height:auto;">
+<img src="images/shield_pcb.png" alt="Alt Text" style="width:30%; height:auto;">
+<img src="images/shield_pcb_3d_2.png" alt="Alt Text" style="width:30%; height:auto;">
+
+
+The shield consist of a simple PCB that route power from the a Barrel jack input to the Wemos D1 and to the led strip with a jst connector.
+
+The shield can be ordered online, you then need to solder :
+
+ - Barrel Type DC Connector  [Aliexpress](https://www.aliexpress.com/item/4001206395694.html?spm=a2g0o.order_list.order_list_main.89.571b1802pOpXx)
+- 2.54mm pin connector
+- Female 8 Pin Header Socket
+
+The 4 mounting Hole H1-H4 are for mounting to the 3D Print case
+
+The kicad project with PCB layout and schematic is available as a zip named Wemos D1 shield
+
+If needed, contact me, I can send you the ready to plug PCB for a small price !
+
+### 3D print box
 
 
 <br/><br/>
+<br/><br/>
+
 
 
 ## Licence
